@@ -1,0 +1,24 @@
+{
+  "name": "bs-callbag-to-array",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "mocha ./lib/js/test/TestCallbagToArray.bs.js",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@ristostevcev/bs-callbag-basics": "^1.4.0",
+    "bs-mocha": "^1.0.0",
+    "bs-platform": "^5.2.1"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag": "^1.1.0",
+    "callbag-to-array": "^1.0.0"
+  }
+}
